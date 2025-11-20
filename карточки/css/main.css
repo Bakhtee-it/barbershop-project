@@ -1,0 +1,32 @@
+@import url(./barbercards.css);
+@import url(./css/button.css);
+@import url(./css/reset.css);
+
+
+
+body {
+  background-color: #d2d3d2;
+  background: linear-gradient(-45deg, #656565, #fff);
+}
+
+header {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: #45ae666e;
+  backdrop-filter: blur(5px);
+  z-index: 50;
+}
+main {
+  padding-top: 100px;
+  height: 500vh;
+}
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  color: #666;
+}
